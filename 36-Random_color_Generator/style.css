@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+div{
+    height: 100px;
+    width: 500px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+button{
+    margin-top:100px;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0px 0px 10px black;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: scale(1.025);
+}
